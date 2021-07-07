@@ -14,6 +14,10 @@ Clone this repository as a submodule inside LunarVim
 cd ~/.config/nvim/lua && git submodule add https://github.com/rebuilt/lv-user-configs.git
 ```
 
+Back up your lv-config.lua file
+```
+mv ~/.config/nvim/lv-config.lua PATH_OF_YOUR_CHOICE
+```
 Create a symlink to hook up the main configuration file
 
 ```
