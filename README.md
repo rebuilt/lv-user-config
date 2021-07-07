@@ -15,9 +15,11 @@ cd ~/.config/nvim/lua && git submodule add https://github.com/rebuilt/lv-user-co
 ```
 
 Back up your lv-config.lua file
+
 ```
 mv ~/.config/nvim/lv-config.lua PATH_OF_YOUR_CHOICE
 ```
+
 Create a symlink to hook up the main configuration file
 
 ```
@@ -28,4 +30,29 @@ Install plugins
 
 ```
 :PackerSync
+```
+
+# Getting Started
+
+The new git submodule will be located in ~/.config/nvim/lua/lv-user-configs/
+
+## Important files
+
+| Files/Folders    | Description                                                                                                                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| current          | This is a symlink that points to the set of configurations you'd like to use. It points to the 'default' folder. To use another set of configurations, point the symlink to another folder. |
+| default/init.lua | This is the main file that will be sourced. This is the only required file.                                                                                                                 |
+
+## Use a different set of configurations
+
+Remove the 'current' symlink
+
+```
+rm current
+```
+
+Define a new symlink
+
+```
+ln -s <directory> current
 ```
