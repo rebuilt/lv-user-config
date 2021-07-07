@@ -11,7 +11,7 @@ First install [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 Clone this repository as a submodule inside LunarVim
 
 ```bash
-cd ~/.config/nvim/lua && git submodule add https://github.com/rebuilt/lv-user-configs.git
+cd ~/.config/nvim/lua && git submodule add https://github.com/rebuilt/lv-user-config.git
 ```
 
 Back up your lv-config.lua file
@@ -23,7 +23,7 @@ mv ~/.config/nvim/lv-config.lua PATH_OF_YOUR_CHOICE
 Create a symlink to hook up the main configuration file
 
 ```
-ln -s ~/.config/nvim/lua/lv-user-configs/current/init.lua ~/.config/nvim/lv-config.lua
+ln -s ~/.config/nvim/lua/lv-user-config/current/init.lua ~/.config/nvim/lv-config.lua
 ```
 
 Install plugins
@@ -34,7 +34,7 @@ Install plugins
 
 # Getting Started
 
-The new git submodule will be located in ~/.config/nvim/lua/lv-user-configs/
+The new git submodule will be located in ~/.config/nvim/lua/lv-user-config/
 
 ## Important files
 
