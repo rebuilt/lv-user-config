@@ -1,4 +1,4 @@
-local conf = require "user-settings.plugin-configs"
+local conf = require "lv-user-configs.plugin-configs"
 -- Additional Plugins
 O.user_plugins = {
     {
