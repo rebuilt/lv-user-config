@@ -11,7 +11,7 @@ First install [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 Clone this repository as a submodule inside LunarVim
 
 ```bash
-cd ~/.config/nvim/lua && git submodule add https://github.com/rebuilt/lv-user-config.git
+cd ~/.config/nvim/lua && git submodule add -f https://github.com/rebuilt/lv-user-config.git
 ```
 
 Back up your lv-config.lua file
