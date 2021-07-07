@@ -1,0 +1,1 @@
+This project is intended to be a way to manage LunarVim configuration files. The approach is to use a git submodule to separate out the two concerns: user-specific configuration from LunarVim core configuration. This means a user can create their own configuration files in their own repos. It also means the repos will be
