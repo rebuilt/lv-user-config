@@ -56,3 +56,7 @@ Define a new symlink
 ```
 ln -s <directory> current
 ```
+
+## Sharing your configuration with others
+
+If you have a configuration you're proud of, create a pull request and I'll add your configs for others to use
