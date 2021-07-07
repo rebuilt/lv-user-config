@@ -17,7 +17,7 @@ cd ~/.config/nvim/lua && git submodule add https://github.com/rebuilt/lv-user-co
 Create a symlink to hook up the main configuration file
 
 ```
-ln -s ~/.config/nvim/lua/lv-user-configs/current/init.lua lv-config.lua
+ln -s ~/.config/nvim/lua/lv-user-configs/current/init.lua ~/.config/nvim/lv-config.lua
 ```
 
 Install plugins
