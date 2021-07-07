@@ -60,3 +60,7 @@ ln -s <directory> current
 ## Sharing your configuration with others
 
 If you have a configuration you're proud of, create a pull request and I'll add your configs for others to use
+
+## Notes
+
+If you were one of the first people to clone the repo, your git submodule will be named lv-user-configs (plural).   LunarVim has decided to go with the singular: lv-user-config .  So, to make sure the git submodule is correctly ignored, change the name of the folder to singular.  
