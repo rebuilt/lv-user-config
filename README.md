@@ -1,4 +1,4 @@
-This project is a way to manage LunarVim configuration files. The approach is to use a git submodule to separate out the two concerns: user-specific configuration from LunarVim core configuration. This means a user can create their own configuration files in their own repos. Changes will be tracked in their own git submodule.
+This project is a way to manage LunarVim configuration files. The approach is to use a external git repository or a git submodule to separate out the two concerns: user-specific configuration from LunarVim core configuration. This means a user can create their own configuration files in their own repos. Changes will be tracked in their own git submodule.
 
 Having a separate repo also enables users to share configurations with one another. It means we might also create a marketplace for different modes: web development, script-writing, document creation, etc.
 
@@ -7,6 +7,29 @@ Modes can easily be switched by changing a symlink to a different folder. As lon
 # Installation
 
 First install [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
+
+## Installing to an external directory
+
+Clone this repository to the ~/.config folder
+
+```
+git clone https://github.com/rebuilt/lv-user-config.git ~/.config/lunarvim
+```
+
+Back up your lv-config.lua file
+
+```
+mv ~/.config/nvim/lv-config.lua PATH_OF_YOUR_CHOICE
+```
+
+Then create the symlinks
+
+```
+ln -s ~/.config/nvim/lua/lv-user-config/current/init.lua ~/.config/nvim/lv-config.lua
+ln -s ~/.config/lunarvim/ ~/.config/nvim/lua/lv-user-config
+```
+
+## Optional install as a git submodule
 
 Clone this repository as a submodule inside LunarVim
 
