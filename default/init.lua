@@ -1,4 +1,4 @@
-require "lv-user-configs.current.autocommands"
-require "lv-user-configs.current.editor"
-require "lv-user-configs.current.keybinds"
-require "lv-user-configs.current.plugins"
+require "lv-user-config.current.autocommands"
+require "lv-user-config.current.editor"
+require "lv-user-config.current.keybinds"
+require "lv-user-config.current.plugins"
