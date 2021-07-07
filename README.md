@@ -42,6 +42,7 @@ The new git submodule will be located in ~/.config/nvim/lua/lv-user-config/
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | current          | This is a symlink that points to the set of configurations you'd like to use. It points to the 'example' folder. To use another set of configurations, point the symlink to another folder. This way you can easily switch between 'modes', or try out someone else's set of configurations |
 | init.lua | init.lua is the main file that will be sourced. This is the only required file.  The example project shows you how you might split up your configuration into different files                                                                                                               |
+| example | The files in this folder demonstrate how to split your configuration into multiple files. Do not write your configuration here.  Copy the folder instead.  Otherwise, if you want to pull updates, you may get conflicts.|
 
 ## Use a different set of configurations
 
