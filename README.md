@@ -28,6 +28,10 @@ Then create the symlinks
 ln -s ~/.config/nvim/lua/lv-user-config/current/init.lua ~/.config/nvim/lv-config.lua
 ln -s ~/.config/lunarvim/ ~/.config/nvim/lua/lv-user-config
 ```
+Install plugins
+```
+:PackerSync
+```
 
 ## Optional install as a git submodule
 
