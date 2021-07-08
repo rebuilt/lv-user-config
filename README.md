@@ -10,6 +10,8 @@ First install [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 
 ## Installing to an external directory
 
+This method will put lunarvim user configuration files in ~/.config/lunarvim
+
 Clone this repository to the ~/.config folder
 
 ```
