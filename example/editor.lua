@@ -1,3 +1,6 @@
+-- local user = os.getenv("USER")
+-- O = dofile("/home/" .. user .. "/.config/nvim_lunar/lua/default-config.lua")
+
 O.format_on_save = true
 O.auto_complete = true
 O.colorscheme = "spacegray"
