@@ -174,10 +174,4 @@ O.user_plugins = {
     config = conf.bqf
 },
 
-{"folke/trouble.nvim",
-    cmd = {"Trouble", "TroubleClose", "TroubleToggle", "TroubleRefresh"},
-    requires = {"kyazdani42/nvim-web-devicons"},
-    config = conf.trouble
-},
-
 }
