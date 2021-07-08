@@ -1,7 +1,12 @@
+local user = os.getenv("USER")
+O = dofile("/home/" .. user .. "/.config/nvim_lunar/lua/default-config.lua")
+
 O.timeoutlen = 1000
 O.plugin.floatterm.active = true
 O.plugin.telescope_project.active = true
 O.format_on_save = false
+O.plugin.symbol_outline.active = true
+
 
 local conf = require("lv-user-config.current.config")
 
@@ -138,12 +143,6 @@ O.user_plugins = {
 {"mfussenegger/nvim-dap",
     config = conf.dap
 },
-
--- {"akinsho/nvim-bufferline.lua",
---     event = "BufEnter",
---     config = conf.nvim_bufferline,
---     requires = {"kyazdani42/nvim-web-devicons"},
--- },
 
 {"kyazdani42/nvim-tree.lua",
     cmd = {"NvimTreeToggle", "NvimTreeRefresh", "NvimTreeFindFile"},
