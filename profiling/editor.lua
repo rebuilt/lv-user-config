@@ -1,0 +1,37 @@
+-- local user = os.getenv("USER")
+-- O = dofile("/home/" .. user .. "/.config/nvim_lunar/lua/default-config.lua")
+
+O.format_on_save = true
+O.auto_complete = true
+O.colorscheme = "spacegray"
+O.auto_close_tree = 0
+O.wrap_lines = false
+O.timeoutlen = 100
+O.document_highlight = true
+O.leader_key = " "
+O.ignore_case = true
+O.smart_case = true
+O.lushmode = false
+O.transparent_window = false
+
+O.plugin.dashboard.active = false
+O.plugin.colorizer.active = false
+O.plugin.zen.active = false
+O.plugin.ts_playground.active = false
+O.plugin.ts_context_commentstring.active = false
+O.plugin.ts_hintobjects.active = false
+O.plugin.ts_autotag.active = false
+O.plugin.ts_rainbow.active = false
+O.plugin.ts_textobjects.active = false
+O.plugin.ts_textsubjects.active = false
+O.plugin.telescope_fzy.active = false
+O.plugin.telescope_project.active = false
+O.plugin.indent_line.active = false
+O.plugin.symbol_outline.active = false
+O.plugin.debug.active = false
+O.plugin.dap_install.active = false
+O.plugin.lush.active = false
+O.plugin.diffview.active = false
+O.plugin.floatterm.active = false
+O.plugin.trouble.active = false
+O.plugin.sanegx.active = false
