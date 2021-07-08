@@ -10,7 +10,7 @@ First install [LunarVim](https://github.com/ChristianChiarulli/LunarVim)
 
 ## Installing to an external directory
 
-This method will put lunarvim user configuration files in ~/.config/lunarvim
+This is one of two methods to install.  This method will put lunarvim user configuration files in ~/.config/lunarvim using a regular git repository.  This method is easier to use and less confusing than using git submodules.  The downside of this approach is that you won't get autocomplete for the global object 'O' ('O' exposes internal LunarVim settings)
 
 Clone this repository to the ~/.config folder
 
@@ -36,6 +36,8 @@ Install plugins
 ```
 
 ## Optional install as a git submodule
+
+This method requires you to put a git directory inside another git directory as a submodule. It's more complicated to use but you will get autocomplete on the global object 'O'.  
 
 Clone this repository as a submodule inside LunarVim
 
