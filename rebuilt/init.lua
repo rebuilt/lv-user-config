@@ -173,10 +173,4 @@ O.user_plugins = {
     config = conf.bqf
 },
 
-{"phaazon/hop.nvim",
-    -- cmd = {"HopWord", "HopLine", "HopChar1", "HopChar2", "HopPattern"},
-    as = "hop",
-    keys = {"gl", "<Leader>h"},
-    config = conf.hop
-},
 }
