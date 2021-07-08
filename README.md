@@ -14,24 +14,24 @@ This method will put lunarvim user configuration files in ~/.config/lunarvim
 
 Clone this repository to the ~/.config folder
 
-```
+```bash
 git clone https://github.com/rebuilt/lv-user-config.git ~/.config/lunarvim
 ```
 
 Back up your lv-config.lua file
 
-```
+```bash
 mv ~/.config/nvim/lv-config.lua PATH_OF_YOUR_CHOICE
 ```
 
 Then create the symlinks
 
-```
+```bash
 ln -s ~/.config/nvim/lua/lv-user-config/current/init.lua ~/.config/nvim/lv-config.lua
 ln -s ~/.config/lunarvim/ ~/.config/nvim/lua/lv-user-config
 ```
 Install plugins
-```
+```bash
 :PackerSync
 ```
 
@@ -45,19 +45,19 @@ cd ~/.config/nvim/lua && git submodule add -f https://github.com/rebuilt/lv-user
 
 Back up your lv-config.lua file
 
-```
+```bash
 mv ~/.config/nvim/lv-config.lua PATH_OF_YOUR_CHOICE
 ```
 
 Create a symlink to hook up the main configuration file
 
-```
+```bash
 ln -s ~/.config/nvim/lua/lv-user-config/current/init.lua ~/.config/nvim/lv-config.lua
 ```
 
 Install plugins
 
-```
+```bash
 :PackerSync
 ```
 
@@ -77,14 +77,22 @@ The new git submodule will be located in ~/.config/nvim/lua/lv-user-config/
 
 Remove the 'current' symlink
 
-```
+```bash
 rm current
 ```
 
 Define a new symlink
 
-```
+```bash
 ln -s <directory> current
+```
+
+## Switching between configurations
+
+There is a command-line utility to switch between different modes.  To use, run:
+
+```bash
+./mode.sh
 ```
 
 ## Sharing your configuration with others
