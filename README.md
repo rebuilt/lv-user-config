@@ -1,3 +1,7 @@
+# Do not use.  No longer works
+I'm going to leave this up for reference but the strategy mapped out here no longer works.  LunarVim changed the way it loads lv-config.lua so the method here no longer works.  
+
+
 This project is a way to manage LunarVim configuration files. The approach is to use a external git repository or a git submodule to separate out the two concerns: user-specific configuration from LunarVim core configuration. This means a user can create their own configuration files in their own repos. Changes will be tracked in their own git submodule.
 
 Having a separate repo also enables users to share configurations with one another. It means we might also create a marketplace for different modes: web development, script-writing, document creation, etc.
